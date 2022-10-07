@@ -30,4 +30,6 @@ in let test_map ()=
   Printf.printf "Map de (x -> 2x) sur %s : %s.\n" (string_of_nat_list lst) (string_of_nat_list (List.map (fun n -> 2 * n) lst));
   Printf.printf "Map de (x -> 2x) sur %s : %s.\n\n" (string_of_nat_list empty) (string_of_nat_list (List.map (fun n -> 2 * n) empty));
 
+in let x = 23
+
 in test_hd(); test_tl(); test_length(); test_map()
